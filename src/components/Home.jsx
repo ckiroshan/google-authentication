@@ -18,6 +18,7 @@ const Home = () => {
             navigate("/dashboard");
           }}
           onError={() => alert("Login failed, Try again.")}
+          auto_select={true}
         />
       </div>
     </>
